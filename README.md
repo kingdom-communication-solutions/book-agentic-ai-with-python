@@ -1,6 +1,6 @@
 # Agentic AI with Python — learner companion
 
-Version: **0.1.0-preview**. This preview contains the currently developed learner resources for the book. It contains developed examples from Chapters 1–4; later activities are not yet included. Use CONTENTS.md to locate the exact notebook matching your book section.
+Version: **0.2.0-preview**. This preview contains the currently developed learner resources for the book. It contains developed examples from Chapters 1–4; later activities are not yet included. Use CONTENTS.md to locate the exact notebook matching your book section.
 
 ## Start here
 
@@ -29,7 +29,7 @@ The default uses supplied examples or deterministic Python checks. An activity m
 
 ## Python scripts
 
-Every notebook has an `experiment.py` containing the same code cells. Run it from its folder with `python experiment.py`, or pass its full path. Scripts locate their own activity folder before reading resources. Section 1.3 uses `chapter-01-introduction/01-03-local-workspace/code/debugging_demo.py`; its mismatch is intentional.
+Every notebook has an `experiment.py` containing the same code cells. Run it from its folder with `python experiment.py`, or pass its full path. Scripts locate their own activity folder before reading resources. Start with `chapter-01-getting-started/01-03-readiness/01-03-readiness.ipynb`. This first activity uses basic Python and needs no API key.
 
 ## Resources and results
 
