@@ -1,0 +1,14 @@
+promotion_id,date,product_id,promotion_type,discount_percent
+M002,2026-01-07,P01,price_discount,20
+M009,2026-01-14,P02,price_discount,20
+M016,2026-01-21,P03,price_discount,20
+M023,2026-01-28,P04,price_discount,20
+M030,2026-02-04,P05,price_discount,20
+M037,2026-02-11,P01,price_discount,20
+M044,2026-02-18,P02,price_discount,20
+M051,2026-02-25,P03,price_discount,20
+M058,2026-03-04,P04,price_discount,20
+M065,2026-03-11,P05,price_discount,20
+M072,2026-03-18,P01,price_discount,20
+M079,2026-03-25,P02,price_discount,20
+M086,2026-04-01,P03,price_discount,20
