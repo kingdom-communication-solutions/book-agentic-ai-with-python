@@ -14,4 +14,6 @@
 - **3.3 experiment 6** — [Traces](chapter-03-role-based-prompting/03-03-evaluation/06-traces/03-03-06-traces.ipynb)
 - **4.2** — [Comparing Basic and Zero-Shot CoT Prompts](chapter-04-chain-of-thought/04-02-zero-shot-cot/04-02-zero-shot-cot.ipynb)
 - **4.3** — [Comparing Zero-Shot and Few-Shot CoT Prompts](chapter-04-chain-of-thought/04-03-few-shot-cot/04-03-few-shot-cot.ipynb)
-Chapter 4 currently includes 4.2 and 4.3. Later sections and Chapter 5 are not included yet. The café CSVs are supplied for the developing data activities. Their presence does not mean those activities are complete.
+- **3.4** — [Email Safety Assistant](chapter-03-role-based-prompting/03-04-email-safety/email-safety.ipynb)
+- **3.4 worked example** — [Worked Email Safety Example](chapter-03-role-based-prompting/03-04-email-safety-walkthrough/email-safety-walkthrough.ipynb)
+Chapter 4 currently includes 4.2 and 4.3. Later sections and Chapter 5 are not included yet. Chapter 3 includes an independent Email Safety Assistant project and a learner-facing worked example. The café CSVs are supplied for the developing data activities. Their presence does not mean those activities are complete.
