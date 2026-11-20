@@ -1,6 +1,6 @@
 # Agentic AI with Python — learner companion
 
-Version: **0.3.5-preview**. This preview contains the currently developed learner resources for the book. It contains developed examples from Chapters 1–4; later activities are not yet included. Use CONTENTS.md to locate the exact notebook matching your book section.
+Version: **0.3.6-preview**. This preview contains the currently developed learner resources for the book. It contains developed examples from Chapters 1–4; later activities are not yet included. Use CONTENTS.md to locate the exact notebook matching your book section.
 
 ## Start here
 
