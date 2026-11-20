@@ -6,11 +6,11 @@ This folder contains email-safety.ipynb, emails.csv and experiment.py. The organ
 
 ## Browser workspace
 
-Open the project notebook from your book's Environment Setup page. Wait for Python (Pyodide) to become idle. Check that emails.csv is beside project-workspace.ipynb. Callouts identify the project files (1), kernel status (2) and triangular Run button (3). The online filename differs from the downloaded email-safety.ipynb, but the task is the same.
+Open the project notebook from your book's Environment Setup page. Wait for Python (Pyodide) to become idle. Check that emails.csv is beside project-workspace.ipynb. The figures are simplified vector interface guides. Callouts identify the project files (1), kernel status (2) and triangular Run button (3). The online filename differs from the downloaded email-safety.ipynb, but the task is the same.
 
 Select a code cell and press Shift+Enter. Run in order and keep USE_OPENAI = False in the browser. Save with File → Save Notebook and download a copy using the file browser's Download command before leaving. Offline examples do not generate answers from edited prompts.
 
-![Browser notebook and email data](assets/email-project-browser-workspace-annotated.svg)
+![Browser workspace vector guide](assets/email-project-browser-workspace-annotated.svg)
 
 ## Local JupyterLab
 
@@ -28,9 +28,9 @@ python -m jupyterlab
 6. Choose the environment's Python kernel and run the data-loading cell with Shift+Enter. It should display messages E01–E04.
 7. Complete role_prompt (4) and the return value of make_request(email) (5). Save the notebook in this folder.
 
-![Local JupyterLab project](assets/email-project-local-jupyterlab-annotated.svg)
+![Local JupyterLab vector guide](assets/email-project-local-jupyterlab-annotated.svg)
 
-![The role and task TODOs](assets/email-project-prompt-todos-annotated.svg)
+![Role and task prompt fields](assets/email-project-prompt-todos-annotated.svg)
 
 ## Optional live model requests
 
