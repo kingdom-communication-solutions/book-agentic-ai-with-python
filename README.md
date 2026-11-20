@@ -1,6 +1,6 @@
 # Agentic AI with Python — learner companion
 
-Version: **0.3.7-preview**. This preview contains the currently developed learner resources for the book. It contains developed examples from Chapters 1–4; later activities are not yet included. Use CONTENTS.md to locate the exact notebook matching your book section.
+Version: **0.3.8-preview**. This preview contains the currently developed learner resources for the book. It contains developed examples from Chapters 1–4; later activities are not yet included. Use CONTENTS.md to locate the exact notebook matching your book section.
 
 ## Start here
 
@@ -44,3 +44,5 @@ Use the package version matching your book draft or edition. PACKAGE_MANIFEST.js
 Official repository: https://github.com/kingdom-communication-solutions/book-agentic-ai-with-python
 
 Download the matching ZIP from the repository’s Releases page, or use Code → Download ZIP for the current files. You do not need Git or an online notebook to run the examples.
+
+If updating an existing environment, rerun `python -m pip install -r requirements.txt`. The requirements include a compatible Brotli decoder for compressed API responses.
