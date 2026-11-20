@@ -1,6 +1,6 @@
 # Agentic AI with Python — learner companion
 
-Version: **0.2.0-preview**. This preview contains the currently developed learner resources for the book. It contains developed examples from Chapters 1–4; later activities are not yet included. Use CONTENTS.md to locate the exact notebook matching your book section.
+Version: **0.3.1-preview**. This preview contains the currently developed learner resources for the book. It contains developed examples from Chapters 1–4; later activities are not yet included. Use CONTENTS.md to locate the exact notebook matching your book section.
 
 ## Start here
 
@@ -35,7 +35,7 @@ Every notebook has an `experiment.py` containing the same code cells. Run it fro
 
 The five CSVs under `data/campus_cafe/` are synthetic teaching data. Read their README and data dictionary before using them. A source absent from a sparse events/promotions table is explained there. The developing data experiments will identify which files they need; downloading these CSVs does not require studying later methods.
 
-The notebooks include the worked examples and supplied responses used in the book. Evaluation activities include the reference facts needed to perform their checks. Separate exercise answer keys and teaching notes are not included. Notebook outputs are cleared before packaging.
+The notebooks include the worked examples and supplied responses used in the book. Evaluation activities include the reference facts needed to perform their checks. The Email Safety Assistant includes its reader-facing worked example; private instructor assessment notes and separate hidden answer keys are not included. Notebook outputs are cleared before packaging.
 
 ## Version and verification
 
