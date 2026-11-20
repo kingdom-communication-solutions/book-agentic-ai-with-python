@@ -1,0 +1,4 @@
+jupyterlab>=4
+ipykernel>=6
+openai>=1.66
+python-dotenv>=1

@@ -1,0 +1,7 @@
+event_id,date,event_name,event_type,expected_attendance
+E009,2026-01-14,Campus community gathering,campus_event,200
+E023,2026-01-28,Campus community gathering,campus_event,120
+E037,2026-02-11,Campus community gathering,campus_event,200
+E051,2026-02-25,Campus community gathering,campus_event,120
+E065,2026-03-11,Campus community gathering,campus_event,200
+E079,2026-03-25,Campus community gathering,campus_event,450

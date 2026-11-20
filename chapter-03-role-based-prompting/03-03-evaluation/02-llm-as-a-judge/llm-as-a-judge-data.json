@@ -1,0 +1,4 @@
+{
+  "A": "A variable is a name for a value that can never change. For example, score = 10.",
+  "B": "A variable is a name that refers to a value. For example, score = 10; later, score = 12 makes the name refer to 12."
+}

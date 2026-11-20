@@ -1,0 +1,19 @@
+# Developed learning activities
+
+- **2.3** — [Trace a Python Request](chapter-02-prompting/02-03-openai-and-python/02-03-openai-and-python.ipynb)
+- **2.4** — [Compare Responses](chapter-02-prompting/02-04-model-selection/02-04-model-selection.ipynb)
+- **2.5** — [Hands-On Exercise: Build a Workshop Planning Assistant](chapter-02-prompting/02-05-workshop-planning/02-05-workshop-planning.ipynb)
+- **2.5 transfer** — [Adapt the Workshop Planning Assistant](chapter-02-prompting/02-05-workshop-transfer/02-05-workshop-transfer.ipynb)
+- **3.2** — [Construct the museum prompt](chapter-03-role-based-prompting/03-02-museum-assistant/03-02-museum-assistant.ipynb)
+- **3.3 experiment 1** — [Ground-Truth Evaluation](chapter-03-role-based-prompting/03-03-evaluation/01-ground-truth/03-03-01-ground-truth.ipynb)
+- **3.3 experiment 2** — [LLM-as-a-Judge](chapter-03-role-based-prompting/03-03-evaluation/02-llm-as-a-judge/03-03-02-llm-as-a-judge.ipynb)
+- **3.3 experiment 3** — [Consistency and Persona Adherence](chapter-03-role-based-prompting/03-03-evaluation/03-persona-adherence/03-03-03-persona-adherence.ipynb)
+- **3.3 experiment 4** — [Robustness Testing](chapter-03-role-based-prompting/03-03-evaluation/04-robustness/03-03-04-robustness.ipynb)
+- **3.3 experiment 5** — [Simple Metrics](chapter-03-role-based-prompting/03-03-evaluation/05-simple-metrics/03-03-05-simple-metrics.ipynb)
+- **3.3 experiment 6** — [Traces](chapter-03-role-based-prompting/03-03-evaluation/06-traces/03-03-06-traces.ipynb)
+- **4.2** — [Comparing Basic and Zero-Shot CoT Prompts](chapter-04-chain-of-thought/04-02-zero-shot-cot/04-02-zero-shot-cot.ipynb)
+- **4.3** — [Comparing Zero-Shot and Few-Shot CoT Prompts](chapter-04-chain-of-thought/04-03-few-shot-cot/04-03-few-shot-cot.ipynb)
+
+Section 1.3: `chapter-01-introduction/01-03-local-workspace/code/debugging_demo.py`.
+
+Chapter 4 currently includes 4.2 and 4.3. Later sections and Chapter 5 are not included yet. The café CSVs are supplied for the developing data activities. Their presence does not mean those activities are complete.

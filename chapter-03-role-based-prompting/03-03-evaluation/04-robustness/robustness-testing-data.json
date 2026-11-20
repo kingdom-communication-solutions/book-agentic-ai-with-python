@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "event": "Python 101",
+      "start": "10:00"
+    },
+    {
+      "event": "Data Stories",
+      "start": "14:00"
+    }
+  ]
+}
