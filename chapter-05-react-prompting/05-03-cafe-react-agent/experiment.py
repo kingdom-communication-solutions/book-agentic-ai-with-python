@@ -194,10 +194,10 @@ and what recorded events or promotions might be relevant?
 """
 
 
-max_steps = 6
+max_steps = 8
 # Each investigation creates its own message list inside run_investigation().
 
-def run_investigation(client, model, instructions, question, max_steps=6):
+def run_investigation(client, model, instructions, question, max_steps=8):
     system_prompt = instructions
     messages = [{"role": "user", "content": question}]
     for step in range(max_steps):
