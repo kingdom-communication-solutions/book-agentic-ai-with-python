@@ -18,4 +18,5 @@
 - **3.4 worked example** — [Worked Email Safety Example](chapter-03-role-based-prompting/03-04-email-safety-walkthrough/email-safety-walkthrough.ipynb)
 - **4.4** — [Campus Café Detective — Analysing Sales with CoT](chapter-04-chain-of-thought/04-04-cafe-cot-project/cafe-cot-project.ipynb)
 - **4.4 worked example** — [Campus Café Detective — Worked Example & Discussion](chapter-04-chain-of-thought/04-04-cafe-cot-walkthrough/cafe-cot-walkthrough.ipynb)
+- **5.2** — [Café Tools and One OpenAI Tool Interaction](chapter-05-react-prompting/05-02-cafe-tools/cafe-tools.ipynb)
 Chapter 4 currently includes 4.2 and 4.3. Later sections and Chapter 5 are not included yet. Chapter 3 includes an independent Email Safety Assistant project and a learner-facing worked example. The café CSVs are supplied for the developing data activities. Their presence does not mean those activities are complete.
