@@ -5,6 +5,11 @@ from pathlib import Path
 import os
 os.chdir(Path(__file__).resolve().parent)
 
+lookup_record = {'order_number': 'O1001', 'return_status': 'received', 'refund_status': 'pending'}
+question = "Is my refund paid?"
+print(lookup_record)
+
+
 # Shared offline/live request adapter. No API key is stored in this notebook.
 # Code origin: get_completion(system_prompt, user_prompt) was introduced in Section 2.3.
 # Notebook extension used from Section 3.2: supplied/live mode and interaction records.
@@ -95,36 +100,22 @@ def clear_live():
     MODE = "offline"
     print("Live client cleared from this kernel.")
 
-# Choose supplied examples or your own OpenAI account.
 MODE = "offline"
 if MODE == "live":
     configure_live()
 
 
-# Supplied classifier outcomes, not predictions from real patients.
-counts = {"TP": 3, "FP": 1, "FN": 2, "TN": 4}
-print("Supplied counts:", counts)
-
-
-system_prompt = "You explain supplied classification counts to students. Report accuracy, recall and missed positives. Do not invent counts, diagnose people or claim clinical validity."
-user_prompt = f"Explain these fictional classification results: {counts}"
-
-
-# Supplied examples for these exact original requests; this does not call a model.
-register_sample('You explain supplied classification counts to students. Report accuracy, recall and missed positives. Do not invent counts, diagnose people or claim clinical validity.', "Explain these fictional classification results: {'TP': 3, 'FP': 1, 'FN': 2, 'TN': 4}", 'The classifier has 100% accuracy and misses no positive cases.')
-
-
-# Calculate the reference metrics after making your prediction.
-accuracy = (counts["TP"] + counts["TN"]) / sum(counts.values())
-recall = counts["TP"] / (counts["TP"] + counts["FN"])
-print("Expected accuracy:", accuracy)
-print("Expected recall:", recall)
-print("Missed positives:", counts["FN"])
-
-# Keep the request and original response together; never record the API key.
+system_prompt = 'You are a shop support assistant. Explain the supplied record only. Do not claim a refund is paid when its recorded status is pending.'
+user_prompt = question + "\nLOOKUP RECORD:\n" + json.dumps(lookup_record, indent=2)
+register_sample('You are a shop support assistant. Explain the supplied record only. Do not claim a refund is paid when its recorded status is pending.', 'Is my refund paid?\nLOOKUP RECORD:\n{\n  "order_number": "O1001",\n  "return_status": "received",\n  "refund_status": "pending"\n}', "Refund paid.")
 response = get_completion(system_prompt, user_prompt)
-trace = {"request": user_prompt, "response": response, "mode": MODE}
-print("REQUEST\n", trace["request"])
-print("RESPONSE\n", trace["response"])
-print("MODE:", trace["mode"])
 
+
+trace = {"system_prompt": system_prompt, "user_request": user_prompt,
+         "supplied_record": lookup_record, "response": response, "mode": MODE}
+print(json.dumps(trace, indent=2))
+print("REFERENCE REFUND STATUS:", lookup_record["refund_status"])
+print("REPORTED RESPONSE:", response)
+
+
+clear_live()

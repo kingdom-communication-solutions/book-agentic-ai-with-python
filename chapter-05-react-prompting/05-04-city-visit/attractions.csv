@@ -1,0 +1,7 @@
+attraction_id,name,interests,admission_eur,visit_minutes,setting
+A01,City History Museum,history,12,90,indoor
+A02,Riverside Art Gallery,art,15,90,indoor
+A03,Heritage House,history;art,8,60,indoor
+A04,Sculpture Garden,art,0,60,outdoor
+A05,Science Centre,science,15,90,indoor
+A06,Old Watchtower,history,10,45,outdoor

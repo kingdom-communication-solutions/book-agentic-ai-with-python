@@ -7,3 +7,6 @@ matplotlib>=3.8,<4
 
 # Compatible compressed-response decoding for the OpenAI HTTP client.
 Brotli>=1.2,<2
+
+# Section 6.3 uses the Pydantic 2 validation interface.
+pydantic>=2,<3

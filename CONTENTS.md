@@ -20,4 +20,15 @@
 - **4.4 worked example** — [Campus Café Detective — Worked Example & Discussion](chapter-04-chain-of-thought/04-04-cafe-cot-walkthrough/cafe-cot-walkthrough.ipynb)
 - **5.2** — [Café Tools and One OpenAI Tool Interaction](chapter-05-react-prompting/05-02-cafe-tools/cafe-tools.ipynb)
 - **5.3** — [Building and Refining a Café ReAct Agent](chapter-05-react-prompting/05-03-cafe-react-agent/cafe-react-agent.ipynb)
-Chapter 4 currently includes 4.2 and 4.3. Later sections and Chapter 5 are not included yet. Chapter 3 includes an independent Email Safety Assistant project and a learner-facing worked example. The café CSVs are supplied for the developing data activities. Their presence does not mean those activities are complete.
+- **5.4** — [Project — Plan a One-Day City Visit](chapter-05-react-prompting/05-04-city-visit/city-visit.ipynb)
+- **5.4 worked example** — [Worked Example — Plan a One-Day City Visit](chapter-05-react-prompting/05-04-city-visit-walkthrough/city-visit-walkthrough.ipynb)
+- **6.2** — [Building a Prompt Chain — IT Maintenance Notice](chapter-06-prompt-chaining/06-02-it-notice-chain/it-notice-chain.ipynb)
+- **6.3** — [Structured Outputs and Gate Checks — IT Notice Chain](chapter-06-prompt-chaining/06-03-structured-it-notice/structured-it-notice.ipynb)
+- **6.4** — [Online Shop Returns Assistant](chapter-06-prompt-chaining/06-04-returns-assistant/returns-assistant.ipynb)
+- **6.4 worked cases** — [Worked Cases — Online Shop Returns Assistant](chapter-06-prompt-chaining/06-04-returns-walkthrough/returns-walkthrough.ipynb)
+- **7.1** — [Revise a Library Announcement](chapter-07-llm-feedback-loops/07-01-feedback-introduction/feedback-introduction.ipynb)
+- **7.2** — [Generate and Check Feedback](chapter-07-llm-feedback-loops/07-02-feedback-sources/feedback-sources.ipynb)
+- **7.3** — [Test and Revise a Python Function](chapter-07-llm-feedback-loops/07-03-code-feedback-loop/code-feedback-loop.ipynb)
+- **7.4** — [Improve a Cancer Classification Report with Feedback](chapter-07-llm-feedback-loops/07-04-classification-report/classification-report.ipynb)
+- **7.4 worked example** — [Worked Example — Cancer Classification Report](chapter-07-llm-feedback-loops/07-04-classification-walkthrough/classification-report-walkthrough.ipynb)
+Only the activities listed above are included in this local preview. Learner-facing worked examples are identified separately; private instructor guidance is excluded. Default execution uses labelled supplied responses or local checks. See each notebook before enabling optional live requests.

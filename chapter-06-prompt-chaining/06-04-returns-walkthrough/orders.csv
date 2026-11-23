@@ -1,0 +1,6 @@
+order_number,item,delivered_date,item_condition
+O1001,desk lamp,2026-06-01,unused
+O1002,headphones,2026-05-01,unused
+O1004,mug,2026-06-10,damaged
+O1007,notebook,2026-06-12,unknown
+O1008,speaker,2026-06-02,used

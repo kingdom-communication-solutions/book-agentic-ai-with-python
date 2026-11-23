@@ -1,0 +1,47 @@
+{
+  "title": "Fictional shop policy \u2014 teaching exercise only",
+  "version": "1.0",
+  "return_window_days": 30,
+  "date_basis": "Calendar days from delivery to the supplied request date; day 30 is included. Never use the computer clock.",
+  "rule_priority": [
+    "DAMAGED",
+    "CONDITION_UNKNOWN",
+    "REASON_MISSING",
+    "WINDOW",
+    "USED",
+    "ELIGIBLE"
+  ],
+  "rules": [
+    {
+      "id": "DAMAGED",
+      "description": "A recorded damaged item requires employee review, regardless of the return window."
+    },
+    {
+      "id": "CONDITION_UNKNOWN",
+      "description": "An unknown or unrecognised item condition requires employee review."
+    },
+    {
+      "id": "REASON_MISSING",
+      "description": "A missing return reason requires employee review."
+    },
+    {
+      "id": "WINDOW",
+      "description": "A non-damaged item requested more than 30 days after delivery is not eligible under this teaching policy."
+    },
+    {
+      "id": "USED",
+      "description": "A used, non-damaged item within the window is not eligible under this teaching policy."
+    },
+    {
+      "id": "ELIGIBLE",
+      "description": "An unused item requested within 0 to 30 days, with a supplied reason, is eligible."
+    }
+  ],
+  "early_stops": [
+    "Missing/blank order number",
+    "No unique matching order",
+    "Requested item does not match the order",
+    "Missing/invalid date or request date before delivery"
+  ],
+  "actions": "Draft responses only. No messages sent, refunds issued, labels created or order records changed."
+}

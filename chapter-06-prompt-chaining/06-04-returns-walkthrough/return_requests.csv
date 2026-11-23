@@ -1,0 +1,9 @@
+request_id,request_date,message
+R01,2026-06-15,I would like to return the desk lamp from order O1001 because I changed my mind.
+R02,2026-06-15,Please return the headphones in order O1002. I no longer need them.
+R03,2026-06-15,"I want to return my desk lamp because I changed my mind, but I cannot find the order number."
+R04,2026-06-15,The mug from order O1004 arrived damaged. I would like to return it.
+R05,2026-06-15,I want to return the desk lamp in order O9999 because I changed my mind.
+R06,2026-06-15,Please return the headphones from order O1001 because I changed my mind.
+R07,2026-06-15,I want to return the notebook in order O1007 because I no longer need it.
+R08,2026-06-15,I want to return the speaker from order O1008 because I changed my mind.

@@ -118,16 +118,12 @@ def make_supplied_client():
             return SimpleNamespace(output=[call], output_text="")
         # This is author-written teaching text, not a live model response.
         report = (
-            "SUPPLIED REPORT: coffee sales increased by 71 units. A campus gathering "
-            "and a coffee promotion were recorded on 11 February. These records "
-            "do not establish the cause of the increase."
+            "SUPPLIED REPORT: 10 February: 35 coffees; 11 February: 106. "
+            "Change: 106 - 35 = 71 units; sales increased. A campus gathering "
+            "(expected attendance 200) and a 20% coffee discount were recorded "
+            "on 11 February. These records do not establish the cause of the increase. "
+            "Expected event attendance is not actual café customer traffic."
         )
-        if "state the sales quantity" in request["instructions"]:
-            report = (
-                "SUPPLIED REVISED REPORT: 10 February: 35 coffees; 11 February: 106. "
-                "Change: 106 - 35 = 71 coffees. A campus gathering (expected attendance "
-                "200) and a 20% coffee discount were recorded. This does not prove causation."
-            )
         return SimpleNamespace(output=[], output_text=report)
 
     return SimpleNamespace(responses=SimpleNamespace(create=create), close=lambda: None)
@@ -183,8 +179,18 @@ Coffee has product identifier P01.
 Compare sales on the requested dates and inspect relevant
 event and promotion records before preparing your answer.
 
-If a required record is unavailable, explain what is missing.
-Distinguish observed changes from possible explanations.
+In the final report:
+- State the sales quantity for each requested date.
+- Show the change as later quantity - earlier quantity,
+  and say whether sales increased, decreased or stayed the same.
+- Report relevant event and promotion details from the records.
+- State that these records do not establish the cause of the change.
+
+Do not infer customer visits, reasons for purchases or effects
+of events or promotions from these records. Expected event
+attendance is not actual attendance or café customer traffic.
+If a required record is unavailable, say what is missing;
+do not treat a missing sales record as zero or invent a change.
 Keep the final report concise.
 """
 
@@ -294,8 +300,9 @@ else:
 
 
 additional_instruction = """
-In the final report, state the sales quantity for each date
-and show the subtraction used to calculate the change.
+Use two short headings in the final report:
+Sales and recorded context; What the records cannot tell us.
+Keep the quantities, subtraction and evidence limits explicit.
 """
 
 revised_system_prompt = (

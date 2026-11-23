@@ -1,6 +1,8 @@
 {
-  "TP": 3,
-  "FP": 1,
-  "FN": 2,
-  "TN": 4
+  "request": "Is my refund paid?",
+  "record": {
+    "order_number": "O1001",
+    "return_status": "received",
+    "refund_status": "pending"
+  }
 }
